@@ -1,0 +1,6 @@
+framework module jangoPod {
+  umbrella header "jangoPod-umbrella.h"
+
+  export *
+  module * { export * }
+}

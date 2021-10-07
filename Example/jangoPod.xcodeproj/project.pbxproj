@@ -29,11 +29,11 @@
 
 /* Begin PBXFileReference section */
 		0448FCD8A6299CD0662D293B /* Pods_jangoPod_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_jangoPod_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		047FD6B0B5F936976387090B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		047FD6B0B5F936976387090B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		2883B14C09C4493CE21A8548 /* Pods-jangoPod_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-jangoPod_Example.release.xcconfig"; path = "Target Support Files/Pods-jangoPod_Example/Pods-jangoPod_Example.release.xcconfig"; sourceTree = "<group>"; };
-		2E57345CC18CB7E8763A876F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		2E57345CC18CB7E8763A876F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		4C1F9161DE1AEC6AA6190BA1 /* Pods-jangoPod_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-jangoPod_Tests.debug.xcconfig"; path = "Target Support Files/Pods-jangoPod_Tests/Pods-jangoPod_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		52D24049908549BD58BEC9A9 /* jangoPod.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = jangoPod.podspec; path = ../jangoPod.podspec; sourceTree = "<group>"; };
+		52D24049908549BD58BEC9A9 /* jangoPod.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = jangoPod.podspec; path = ../jangoPod.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		607FACD01AFB9204008FA782 /* jangoPod_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = jangoPod_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -156,7 +156,6 @@
 				4C1F9161DE1AEC6AA6190BA1 /* Pods-jangoPod_Tests.debug.xcconfig */,
 				76831D3B2EC04C18F18AC75F /* Pods-jangoPod_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

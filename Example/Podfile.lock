@@ -1,0 +1,16 @@
+PODS:
+  - jangoPod (0.1.0)
+
+DEPENDENCIES:
+  - jangoPod (from `../`)
+
+EXTERNAL SOURCES:
+  jangoPod:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  jangoPod: 7fc485cceee254ede4b4165814d24fb967d39dd0
+
+PODFILE CHECKSUM: b4b2c9bf15a793a02490ab48745c6c69e4546093
+
+COCOAPODS: 1.11.2
